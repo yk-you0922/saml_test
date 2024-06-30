@@ -1,0 +1,8 @@
+FROM postgres
+
+ENV POSTGRES_DB keycloak
+ENV POSTGRES_USER keycloak
+ENV POSTGRES_PASSWORD secret
+
+EXPOSE 5432
+
